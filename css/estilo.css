@@ -207,6 +207,7 @@ nav{
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
+    margin-bottom: 20rem;
   }
   
 .video-youtube iframe {
@@ -225,9 +226,13 @@ nav{
 .servi-2{
     text-align: justify;
     padding: 0 50px;
+    margin-bottom: 30px;
+}
+.servi-3{
+    text-align: justify;
+    padding: 0 50px;
     margin-bottom: 200px;
 }
-
 
 
 /* Termina servicios */
