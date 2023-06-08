@@ -457,6 +457,7 @@ main .blog {
     text-align: center; }
 
 main .form-container {
+  margin-bottom: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -500,7 +501,6 @@ main .form-container {
       margin-bottom: 7em; }
 
 main .contact-extra {
-  margin-top: 5em;
   justify-content: center;
   align-content: center;
   display: flex;

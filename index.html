@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, " >
+    <meta name="description" content="parrafo">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./img/logos/favicon.icon.ico">
-    <title>CafecitoBreak</title>
+    <title>CafecitoBreak| Inicio</title>
 </head>
 
   <body>
-  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   
      <a href="https://api.whatsapp.com/send?phone=+59897683127&text=%C2%A1Bienvenidos,%20contactenme!" class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
      </a>
@@ -48,38 +49,6 @@
           </ul>
           </div>
       </nav>
-
-      <script>
-        function addEventListeners() {
-          var botonMenuAbrir = document.getElementById("boton-menu-abrir");
-          var botonMenuCerrar = document.getElementById("boton-menu-cerrar");
-          var menu = document.getElementById("nav");
-          var fondomenu = document.getElementById("fondo-menu-desplegable");
-          
-  
-  
-          botonMenuAbrir.addEventListener("click", function () {
-            menu.classList.add("abierto");
-            fondomenu.classList.add("abierto");
-            botonMenuAbrir.style.display = "none";
-            botonMenuCerrar.style.display = "flex";
-          });
-  
-          botonMenuCerrar.addEventListener("click", function () {
-            menu.classList.remove("abierto");
-            fondomenu.classList.remove("abierto");
-            botonMenuCerrar.style.display = "none";
-            botonMenuAbrir.style.display = "block";
-          });
-
-        }
-        
-        // Esperar a que los elementos existan en el DOM para añadir los eventos
-        window.addEventListener("load", function() {
-          addEventListeners();
-        });
-      </script>
-
     </header>
   
   
@@ -89,9 +58,13 @@
                 CafecitoBreak
             </h1>
             <p>El mejor café, para todos los gustos.</p>
-            <button class="btn btn-dark"> 
-             CONOCE MÁS 
-            </button>
+
+            <a href="https://www.ico.org/ES/coffee_storyc.asp" target="_blank">
+              <button class="btn btn-dark"> 
+               CONOCE MÁS 
+              </button>
+            </a>
+
         </div>
     
     <!-- here the label blog begin -->
@@ -103,7 +76,7 @@
       </div>
     </section> 
 
-    <!-- here the cards begin -->
+    <!-- here the cards begin -->|   |  |   |
  
   <div class="carta-container">
     <div class="carta">
@@ -280,6 +253,37 @@
     </section>
   </main>
 
+  <script>
+    function addEventListeners() {
+      var botonMenuAbrir = document.getElementById("boton-menu-abrir");
+      var botonMenuCerrar = document.getElementById("boton-menu-cerrar");
+      var menu = document.getElementById("nav");
+      var fondomenu = document.getElementById("fondo-menu-desplegable");
+      
+
+
+      botonMenuAbrir.addEventListener("click", function () {
+        menu.classList.add("abierto");
+        fondomenu.classList.add("abierto");
+        botonMenuAbrir.style.display = "none";
+        botonMenuCerrar.style.display = "flex";
+      });
+
+      botonMenuCerrar.addEventListener("click", function () {
+        menu.classList.remove("abierto");
+        fondomenu.classList.remove("abierto");
+        botonMenuCerrar.style.display = "none";
+        botonMenuAbrir.style.display = "block";
+      });
+
+    }
+    
+    // Esperar a que los elementos existan en el DOM para añadir los eventos
+    window.addEventListener("load", function() {
+      addEventListeners();
+    });
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
@@ -295,9 +299,9 @@
      </figure>
    </div>
    <div class="box-2">
-     <h2>SOBRE NOSOTROS</h2>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, voluptas.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, voluptas.</p>
+     <h2>TE ESPERAMOS</h2>
+     <p>“CafecitoBreak: ¡Un break con sabor a café!”</p>
+     <p>Montevideo, Uruguay. Emilio Raña 2517.</p>
    </div>
    <div class="box-3">
      <h2>SIGUENOS</h2>
