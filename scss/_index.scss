@@ -26,7 +26,6 @@ body{
     }  
 }
 main{
-
     .cover{
         height: 400px;
         background-image: url(https://images.unsplash.com/photo-1522725843938-035891590561?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwYW5kJTIwZ2FyZGVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
@@ -73,6 +72,9 @@ main{
             margin: 30px;
             text-align: center;
             box-shadow: 0 0 0 0.10px #0d2033;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
             .card-title{
                 font-size: 17px;
@@ -99,6 +101,8 @@ main{
     }
     .shop-section{
         height: 500px;
+        padding: 0px;
+        margin: 0px;
 
         .cont-shop{
             width: 100%;
@@ -108,6 +112,43 @@ main{
             .row-cont{
                 overflow-y: hidden;
                 
+                .shop-col-c{
+                    max-height: 420px;
+                    overflow-y: auto;
+                    overflow-x: hidden; 
+                    
+                    #cart-container{
+                        background-color: white;
+                        padding: 2rem;
+                        margin: 2rem 0;
+                        max-width: 60px;
+                        text-align: center;
+                        position: relative;  
+                        
+                        #cart-list{
+                            list-style: none;
+                            padding: 0;
+                        }
+                        #cart-total{
+                            font-weight: bold;
+                        }
+                        #reset-cart{
+                            background-color: #ff5050;
+                            border: none;
+                            color: white;
+                            padding: 0.5rem 1rem;
+                            margin-top: 1rem;
+                            cursor: pointer;
+                            transition: background-color 0.3s;
+                            
+                            #reset-cart:hover {
+                                background-color: #ff3333;
+                            }
+                        }
+
+                    }
+                
+                }
                 .shop-col{
                     max-height: 420px;
                     overflow-y: auto;
@@ -118,6 +159,7 @@ main{
                         .card{
                             border: 0;
                             box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06);
+                            
 
                             #card-img-shop{
                                 width: 20vw;
@@ -125,11 +167,11 @@ main{
                                 border-radius: 10px;
                             }
                             .card-title{
-                                font-size: 17px;
+                                font-size: 14px;
                                 font-weight: 600;
 
                                 span{
-                                    right: 20px;
+                                    right: 8px;
                                     position: absolute;
                                 }
                             }
@@ -138,7 +180,7 @@ main{
                     }
                 }
             }
-
         }
     }
 }
+    
