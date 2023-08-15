@@ -650,11 +650,11 @@ main .contact-extra {
   border-radius: 50%;
   margin: 10px; }
 
-#contador-productos {
+.contador-productos {
   font-size: 12px; }
 
 .icon-cart {
-  width: 3rem;
+  width: 5rem;
   height: 2.4rem; }
 
 .container-cart-icon {
@@ -673,7 +673,8 @@ main .contact-extra {
   padding: .300rem .50rem;
   bottom: 5px;
   /* Agregar un pequeño espacio entre los elementos */
-  position: relative; }
+  position: relative;
+  border-radius: 15px 15px 15px 15px; }
 
 #cart-container {
   display: none;
@@ -700,3 +701,21 @@ main .contact-extra {
 .card-img-top {
   margin: 0 auto;
   /* Centrar horizontalmente img de productos tienda*/ }
+
+.boton-menu-carrito {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  padding: 0px 2px;
+  cursor: pointer;
+  outline: none; }
+
+.boton-menu-carrito:focus {
+  outline: none; }
+
+.boton-menu-carrito:not(:focus) {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  padding: 0px 2px;
+  cursor: pointer; }
